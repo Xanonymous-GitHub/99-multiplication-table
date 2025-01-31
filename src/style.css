@@ -59,8 +59,15 @@ h1 {
   padding: 2em;
 }
 
-.read-the-docs {
+.content-text {
   color: #888;
+}
+
+._42dot-sans {
+  font-family: "42dot Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 button {
