@@ -9,6 +9,9 @@ export default defineConfig({
     minify: true,
     cssMinify: true,
     sourcemap: false,
+    // The assets dir name should be as same as the GitHub repository name,
+    // since we are deploying the site to GitHub Pages.
+    assetsDir: "99-multiplication-table",
   },
   esbuild: {
     legalComments: "none",
